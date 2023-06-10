@@ -41,6 +41,7 @@ h2 {
   color: #dddd;
   font-size: 24px;
   margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 p {
@@ -57,10 +58,12 @@ p2 {
   color:#dddd;
   font-weight: bold;
   
+  
 }
 p3 {
   color: #dddd;
   font-size: 13px;
+  text-decoration: underline;
 }
 body {
   display: flex;
@@ -69,6 +72,42 @@ body {
   background-image: url("https://cdn.create.vista.com/api/media/medium/333794654/stock-photo-top-view-curved-blue-paper?token=");
   background-size: cover;
   background-position: center;
+}
+
+.project-details {
+  text-align:center;
+}
+
+.video-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* ratio info */
+  position: relative;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.code-container {
+  max-height: 400px; /* code container height */
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #dddd;
+  font-weight: bold;
 }
 
 
