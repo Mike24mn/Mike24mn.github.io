@@ -2,27 +2,111 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, intital-scale=1">
+  <meta name="viewport" content="width=device-width">
   <title>Michael LaFond Resume</title>
   <link rel="stylesheet" href="style.css" />
   <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     header { 
-    background-image: url("https://i.imgur.com/oD2GYi3.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+      background-image: url("https://i.imgur.com/A7tW8j5.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .header-content {
+      text-align: center;
+    }
+
+    .header-photo img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    section {
+      border: 1px solid #ddd;
+      padding: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1 class="header-title">Michael LaFond</h1> 
-    <div class="header-photo">
-      <img src="https://i.imgur.com/pK6fSQA.jpg">
+    <div class="header-content">
+      <h1 class="header-title">Michael LaFond</h1> 
+      <div class="header-photo">
+        <img src="https://i.imgur.com/pK6fSQA.jpg">
+      </div>
     </div>
-    <h2>Data-driven professional with a strong analytical mindset
-        and a deep passion for technological development.
-    </h2>
   </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p></p>
+      <li>
+      Data-driven professional with a strong analytical
+      mindset and a deep passion for technological development. 
+      </li>
+      <p></p>
+      <li>Collaborative and adept at working in a team envrionment.</li>
+      <p></p>
+      <li>Analytical thinker with a background
+        in operating heavy equipment as an operating engineer, 
+        applying meticulous attention to detail and critical
+        problem-solving skills to optimize operational efficiency
+      </li>
+      <p></p>
+      <li>Accomplished Journeyman member of the International 
+        Union of Operating Engineers.
+      </li>
+      <p></p>
+      <li>Phi Theta Kappa Honors Society Student</li>
+    </section>
+    <section>
+      <h2>Experience</h2>
+      <p>Precision Pipeline LLC</p>
+      <p2>Crane Operator in Nat. Gas and Oil Infrastructure Construction</p2>
+      <p></p>
+      <p3>Aug 2013 - May 2020</p3>
+      <p></p>
+      <li>Operated and maintained heavy equipment, including cranes,
+        bulldozers, excavators and horizontal 
+        directional drilling machinery.
+      </li>
+      <p></p>
+      <li>Conducted routine inspections and 
+        performed maintenance to ensure equipment functionality, 
+        maintaining detailed logs of inspection activities.
+      </li>
+      <p></p>
+      <li>Assisted in training new team members and apprentices on 
+        equipment operation and safety protocols.
+      </li>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <p></p>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <p>Public Speaker - Inver Hills Research Conference on AI and Data collection/taxation ethics</p>
+    </section>
+  </main>
 </body>
 </html>
