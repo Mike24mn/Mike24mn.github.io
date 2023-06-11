@@ -11,6 +11,48 @@ header {
   text-align: left;
 }
 
+.header-content {
+  text-align:center;
+}
+
+.contact-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0,60,100);
+  padding: 10px;
+  border-radius: 330px;
+  z-index: 9999;
+}
+
+h6 {
+  margin-left: 59px;
+  color: #dddd;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px
+}
+
+p {
+  padding: 15px;
+  color: #dddd;
+  text-decoration: underline;
+}
+
+a {
+  padding: 15px;
+  color: #dddd;
+} 
+
+.contact-box h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-box p {
+  margin: 0;
+}
+
 ul {
   margin: 10px;
 }
@@ -48,8 +90,9 @@ h1 {
 h2 {
   color: #dddd;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-decoration: underline;
+  margin-left: 30px
 }
 
 h3 {
@@ -57,6 +100,7 @@ h3 {
   font-size: 18px;
   line-height: 1.5;
   font-weight: bold;
+  margin-left: 30px
 }
 
 li2 {
@@ -69,7 +113,8 @@ li {
 
 h4 {
   color: #dddd;
-  font-size: 15px
+  font-size: 15px;
+  margin-left: 40px;
 }
 
 h5 {
@@ -85,12 +130,10 @@ body {
   background-image: url("https://cdn.create.vista.com/api/media/medium/333794654/stock-photo-top-view-curved-blue-paper?token=");
   background-size: cover;
   background-position: center;
-  overflow-x: auto;
 }
 
 .project-details {
   text-align:center;
-  grid-column: 1 / -1;
   width: 100%;
   
 }
@@ -114,7 +157,7 @@ body {
   width: 100%;
   max-height: 400px; /* code container height */
   overflow: auto;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   padding: 10px;
   margin-top: 20px;
 }
@@ -136,11 +179,12 @@ main {
 }
 
 section {
-  border: 1px solid #dddd;
+  border: 3px solid black;
   padding: 20px;
   width: 100%;
   max-width: 1000px;
 }
+
 
 /* Diff device media querries */
 
