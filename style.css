@@ -140,11 +140,3 @@ section {
   width: 100%;
   max-width: 1000px;
 }
-
-section.project-details {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
-}
