@@ -3,7 +3,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 300px;
-  width: 35%;
+  width: 60%;
   position: relative;
   display: flex;
   align-items: center;
@@ -11,34 +11,14 @@ header {
   text-align: left;
 }
 
-.header-content {
-  text-align:center;
-}
-
 .contact-box {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   background-color: rgba(0,60,100);
   padding: 10px;
-  border-radius: 330px;
+  border-radius: 150px;
   z-index: 9999;
-}
-
-.click-me {
-  margin-right: 850px;
-  margin-bottom: 20px;
-  font-family: Georgia, Helvetica, sans-serif;
-  background-color: #dddd;
-  color: white;
-  padding: 20px 10px;
-  border-radius: 600px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.click-me:hover {
-  background-color: grey;
 }
 
 h6 {
@@ -46,7 +26,7 @@ h6 {
   color: #dddd;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 5px
+  margin-top: 20px
 }
 
 p {
@@ -143,9 +123,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  background-image: url("https://cdn.create.vista.com/api/media/medium/333794654/stock-photo-top-view-curved-blue-paper?token=");
+  background-image: url("https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.webp?b=1&s=170667a&w=0&k=20&c=xdVMhljAN3VUcQTdOrPNuxjB6njfwbOkb_b7ieKvCWA=");
   background-size: cover;
   background-position: center;
+  width: 1200px;
+  height: 1000px;
 }
 
 .project-details {
@@ -173,7 +155,7 @@ body {
   width: 100%;
   max-height: 400px; /* code container height */
   overflow: auto;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 10px;
   margin-top: 20px;
 }
@@ -195,7 +177,7 @@ main {
 }
 
 section {
-  border: 3px solid black;
+  border: 4px solid black;
   padding: 20px;
   width: 100%;
   max-width: 1000px;
@@ -213,3 +195,6 @@ section {
     margin-left: 0;
   }
 }
+
+
+
