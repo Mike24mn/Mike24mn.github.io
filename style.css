@@ -25,6 +25,22 @@ header {
   z-index: 9999;
 }
 
+.click-me {
+  margin-right: 850px;
+  margin-bottom: 20px;
+  font-family: Georgia, Helvetica, sans-serif;
+  background-color: #dddd;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 600px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.click-me:hover {
+  background-color: grey;
+}
+
 h6 {
   margin-left: 59px;
   color: #dddd;
