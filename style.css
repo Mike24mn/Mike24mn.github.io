@@ -54,6 +54,11 @@ p {
   line-height: 1.5;
   font-weight: bold;
 }
+
+li2 {
+  color: #dddd;
+}
+
 li {
   color: #dddd;
 }
