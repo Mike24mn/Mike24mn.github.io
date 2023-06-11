@@ -141,3 +141,15 @@ section {
   width: 100%;
   max-width: 1000px;
 }
+
+/* Diff device media querries */
+
+@media (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+  
+  .header-photo img {
+    margin-left: 0;
+  }
+}
