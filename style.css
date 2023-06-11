@@ -85,6 +85,7 @@ body {
   background-image: url("https://cdn.create.vista.com/api/media/medium/333794654/stock-photo-top-view-curved-blue-paper?token=");
   background-size: cover;
   background-position: center;
+  overflow-x: auto;
 }
 
 .project-details {
