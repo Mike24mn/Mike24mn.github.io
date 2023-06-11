@@ -144,11 +144,11 @@ section {
 
 /* Diff device media querries */
 
-@media (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
+  /* Mobile-specific CSS rules */
   header {
     width: 100%;
   }
-  
   .header-photo img {
     margin-left: 0;
   }
