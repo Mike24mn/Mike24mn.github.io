@@ -52,7 +52,7 @@ h2 {
   text-decoration: underline;
 }
 
-p {
+h3 {
   color: #dddd;
   font-size: 18px;
   line-height: 1.5;
@@ -67,16 +67,16 @@ li {
   color: #dddd;
 }
 
-p2 {
-  color:#dddd;
-  font-weight: bold;
-  
-  
+h4 {
+  color: #dddd;
+  font-size: 15px
 }
-p3 {
+
+h5 {
   color: #dddd;
   font-size: 13px;
   text-decoration: underline;
+  text-align: center;
 }
 body {
   display: flex;
