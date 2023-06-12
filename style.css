@@ -13,6 +13,7 @@ header {
 .header-content {
   text-align:center;
 }
+
 .contact-box {
   position: absolute;
   top: 20px;
@@ -21,21 +22,22 @@ header {
   padding: 10px;
   border-radius: 330px;
   z-index: 9999;
+  text-align: center;
 }
 
 
 h6 {
-  margin-left: 59px;
+  margin: 0;
   color: #dddd;    
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 5px
+  margin-bottom: 10px
 }
 p {
-  padding: 15px;
+  padding: 5px;
   color: #dddd;
-  text-decoration: underline;
 }
+
 a {
   padding: 15px;
   color: #dddd;
