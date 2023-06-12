@@ -3,60 +3,56 @@ header {
   background-size: cover;
   background-position: center;
   height: 300px;
-  width: 60%;
+  width: 35%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: left;
 }
-
+.header-content {
+  text-align:center;
+}
 .contact-box {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   background-color: rgba(0,60,100);
   padding: 10px;
   border-radius: 330px;
   z-index: 9999;
-  text-align: center;
 }
+
 
 h6 {
-  margin: 0;
-  color: #dddd;
+  margin-left: 59px;
+  color: #dddd;    
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 10px
+  margin-bottom: 5px
 }
-
 p {
   padding: 15px;
   color: #dddd;
+  text-decoration: underline;
 }
-
 a {
   padding: 15px;
   color: #dddd;
 } 
-
 .contact-box h4 {
   font-size: 18px;
   margin-bottom: 8px;
 }
-
 .contact-box p {
   margin: 0;
 }
-
 ul {
   margin: 10px;
 }
-
 li {
   margin-bottom: 20px;
 }
-
 h1 {
   position: absolute;
   margin-left: 50px;
@@ -65,7 +61,6 @@ h1 {
   font: 36px;
   font-family: Georgia, serif, Helvetica, sans-serif;
 }
-
 .header-photo img {
   width: 200px;
   height: 200px;
@@ -74,7 +69,6 @@ h1 {
   margin-top: 80px;
   outline: 2px solid #dddd;
 }
-
 .main-content {
   display: flex;
   flex-direction: column;
@@ -82,7 +76,6 @@ h1 {
   text-align: center;
   margin: 20px;
 }
-
 h2 {
   color: #dddd;
   font-size: 24px;
@@ -90,7 +83,6 @@ h2 {
   text-decoration: underline;
   margin-left: 30px
 }
-
 h3 {
   color: #dddd;
   font-size: 18px;
@@ -98,21 +90,17 @@ h3 {
   font-weight: bold;
   margin-left: 30px
 }
-
 li2 {
   color: #dddd;
 }
-
 li {
   color: #dddd;
 }
-
 h4 {
   color: #dddd;
   font-size: 15px;
   margin-left: 40px;
 }
-
 h5 {
   color: #dddd;
   font-size: 13px;
@@ -123,26 +111,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  background-image: url("https://media.istockphoto.com/id/185007737/photo/dark-blue-grunge-background.webp?b=1&s=170667a&w=0&k=20&c=xdVMhljAN3VUcQTdOrPNuxjB6njfwbOkb_b7ieKvCWA=");
+  background-image: url("https://cdn.create.vista.com/api/media/medium/333794654/stock-photo-top-view-curved-blue-paper?token=");
   background-size: cover;
   background-position: center;
-  width: 1200px;
-  height: 1000px;
 }
-
 .project-details {
   text-align:center;
   width: 100%;
   
 }
-
 .video-container {
   width: 100%;
   height: 0;
   padding-bottom: 56.25%; /* ratio info */
   position: relative;
 }
-
 .video-container iframe {
   width: 100%;
   height: 100%;
@@ -150,16 +133,14 @@ body {
   top: 0;
   left: 0;
 }
-
 .code-container {
   width: 100%;
   max-height: 400px; /* code container height */
   overflow: auto;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 10px;
   margin-top: 20px;
 }
-
 pre {
   font-family: "Courier New", monospace;
   font-size: 14px;
@@ -168,24 +149,19 @@ pre {
   color: #dddd;
   font-weight: bold;
 }
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
 }
-
 section {
-  border: 4px solid black;
+  border: 3px solid black;
   padding: 20px;
   width: 100%;
   max-width: 1000px;
 }
-
-
 /* Diff device media querries */
-
 @media only screen and (max-device-width: 600px) {
   /* Mobile-specific CSS rules */
   header {
@@ -195,5 +171,3 @@ section {
     margin-left: 0;
   }
 }
-
-
