@@ -17,22 +17,22 @@ header {
   right: 20px;
   background-color: rgba(0,60,100);
   padding: 10px;
-  border-radius: 150px;
+  border-radius: 330px;
   z-index: 9999;
+  text-align: center;
 }
 
 h6 {
-  margin-left: 59px;
+  margin: 0;
   color: #dddd;
   font-size: 16px;
   font-weight: bold;
-  margin-top: 20px
+  margin-bottom: 10px
 }
 
 p {
   padding: 15px;
   color: #dddd;
-  text-decoration: underline;
 }
 
 a {
@@ -195,6 +195,5 @@ section {
     margin-left: 0;
   }
 }
-
 
 
