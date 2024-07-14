@@ -8,3 +8,7 @@ Brute Force Defender (Python Game)
 
 Website Preview
 ![Website Preview](/Website%20Image.png)
+
+Brute Force Defender Preview: 
+
+![Pygame Preview](/Brute%20Force%20Defender.png)
