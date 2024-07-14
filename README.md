@@ -7,4 +7,4 @@ Brute Force Defender (Python Game)
 "Brute Force Defender" is a top-down turret style Python-based game I developed to challenge players with strategic decision-making and quick thinking! Players defend against simulated brute force attacks by the nefarious black hat hacker then shoot lightning bolts at the incoming botnet to defend the server!!! A score counter is also included in the game to keep track of progress.
 
 Website Preview
-![Website Preview](/Website Image.png)
+![Website Preview](/Website%20Image.png)
